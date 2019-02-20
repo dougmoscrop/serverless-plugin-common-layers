@@ -1,0 +1,27 @@
+{
+  "name": "serverless-plugin-common-layers",
+  "version": "1.0.0",
+  "description": "add common layers to all functions",
+  "main": "common-layers.js",
+  "scripts": {
+    "test": "nyc --all ava"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dougmoscrop/serverless-plugin-common-layers.git"
+  },
+  "keywords": [
+    "serverless",
+    "plugin"
+  ],
+  "author": "Doug Moscrop <doug.moscrop@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/dougmoscrop/serverless-plugin-common-layers/issues"
+  },
+  "homepage": "https://github.com/dougmoscrop/serverless-plugin-common-layers#readme",
+  "devDependencies": {
+    "ava": "^1.2.1",
+    "nyc": "^13.3.0"
+  }
+}
